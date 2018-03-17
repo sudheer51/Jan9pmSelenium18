@@ -48,6 +48,12 @@ public class RMTests extends UIBaseClass {
 		int expected= Integer.parseInt(expectedCount);
 		Assert.assertEquals(actual,expected);
 	}
+ 	
+ 	@Test(priority=3)
+ 	public void validateCount()
+ 	{
+ 		
+ 	}
 
 }
 
